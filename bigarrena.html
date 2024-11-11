@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Laguntza</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #141212dd; background-color:aqua}
+        h1 { text-align: center; color: #0f7c79; }
+        h2 { font-size:20px; color: black}
+        .txikia {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .handia {
+            width: 400px;
+        }
+    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="Sarrera.html">Sarrera</a>
+        <a href="lehena.html">Lehena</a>
+        <a href="hirugarrena.html">Hirugarrena</a>
+    </nav>
+    <h1> Hemen ikusiko dugu irudi bat non agertzen da 2024 pilotuak </h1>
+</style>
+
+<img src="https://th.bing.com/th/id/OIP.96Wkn4hAhMDfurTrKPB4JgAAAA?w=257&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Irudi txikia" onclick="handitu(this)" class="txikia">
+
+<script>
+    
+    function handitu(irudia) {
+        if (irudia.classList.contains("txikia")) {
+            irudia.classList.remove("txikia");
+            irudia.classList.add("handia");
+        } else {
+            irudia.classList.remove("handia");
+            irudia.classList.add("txikia");
+        }
+    }
+</script>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<h1> Hemen ikusiko dugu momentu bat non bi pilotu heltzen dira helmugara momentu berean </h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video en HTML</title>
+</head>
+<body>
+<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X-StjQSo4xc?si=CtlfLsa2tcnTkxEC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sonido de Motor F1</title>
+    </head>
+    <body>
+        <title>MP3 Audioa</title>
+</head>
+<br>
+<h1> F1 baten motorra </h1>
+<!-- Audio con controles -->
+<audio controls>
+  <source src= "audioa.mp3" type="audio/mpeg">
+</audio>
+</html>
